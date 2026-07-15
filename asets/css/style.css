@@ -1,0 +1,256 @@
+ /* ===========================================================
+   MSL GLOBAL HOLDINGS INTERNATIONAL LTD
+   Website v1.0
+   =========================================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:Arial, Helvetica, sans-serif;
+
+    background:#f7f9fc;
+
+    color:#2c3e50;
+
+    line-height:1.7;
+
+}
+
+/* =============================== */
+
+.container{
+
+    width:90%;
+
+    max-width:1200px;
+
+    margin:auto;
+
+}
+
+/* =============================== */
+
+.site-header{
+
+    background:#0B1F3A;
+
+    position:sticky;
+
+    top:0;
+
+    z-index:1000;
+
+    box-shadow:0 2px 10px rgba(0,0,0,.15);
+
+}
+
+.site-header .container{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:20px 0;
+
+}
+
+.logo{
+
+    color:white;
+
+    font-size:28px;
+
+    font-weight:bold;
+
+    letter-spacing:2px;
+
+}
+
+/* =============================== */
+
+nav a{
+
+    color:white;
+
+    text-decoration:none;
+
+    margin-left:28px;
+
+    transition:.3s;
+
+    font-size:15px;
+
+}
+
+nav a:hover{
+
+    color:#00A8C6;
+
+}
+
+/* =============================== */
+
+.hero{
+
+    min-height:90vh;
+
+    display:flex;
+
+    align-items:center;
+
+    background:linear-gradient(135deg,#0B1F3A,#123C69);
+
+    color:white;
+
+}
+
+.hero h1{
+
+    font-size:56px;
+
+    margin-bottom:25px;
+
+    line-height:1.2;
+
+}
+
+.hero-tagline{
+
+    color:#8fd9e8;
+
+    font-size:18px;
+
+    margin-bottom:20px;
+
+    text-transform:uppercase;
+
+    letter-spacing:2px;
+
+}
+
+.hero-text{
+
+    font-size:22px;
+
+    max-width:700px;
+
+    margin-bottom:40px;
+
+}
+
+/* =============================== */
+
+.btn-primary{
+
+    display:inline-block;
+
+    padding:16px 36px;
+
+    background:#00A8C6;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:8px;
+
+    font-size:18px;
+
+    transition:.3s;
+
+}
+
+.btn-primary:hover{
+
+    background:#0090ab;
+
+    transform:translateY(-2px);
+
+}
+
+/* =============================== */
+
+section{
+
+    padding:90px 0;
+
+}
+
+section h2{
+
+    color:#0B1F3A;
+
+    font-size:38px;
+
+    margin-bottom:25px;
+
+}
+
+section p{
+
+    font-size:18px;
+
+}
+
+/* =============================== */
+
+footer{
+
+    background:#0B1F3A;
+
+    color:white;
+
+    text-align:center;
+
+    padding:40px;
+
+}
+
+/* =============================== */
+
+@media(max-width:900px){
+
+.hero h1{
+
+    font-size:40px;
+
+}
+
+.hero-text{
+
+    font-size:18px;
+
+}
+
+.site-header .container{
+
+    flex-direction:column;
+
+}
+
+nav{
+
+    margin-top:20px;
+
+}
+
+nav a{
+
+    margin:10px;
+
+    display:inline-block;
+
+}
+
+}
